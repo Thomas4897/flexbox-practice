@@ -1,0 +1,65 @@
+.boxes {
+	height: 200px;
+	width: px;
+	border: 3px solid black;
+	display: flex;
+	flex-direction: ;
+	flex-wrap: ;
+	justify-content: ;
+	align-content: ;
+	align-items: ;
+	gap: ;
+	flex-grow: ;
+	flex-shrink: ;
+	flex: ;
+}
+
+.redbox {
+	border: 3px solid red;
+	height: 50px;
+	width: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: ;
+	flex-grow: ;
+	flex-shrink: ;
+	flex-basis: ;
+	flex: ;
+	align-self: ;
+}
+
+.greenbox {
+	border: 3px solid green;
+	height: 50px;
+	width: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: ;
+	flex-grow: ;
+	flex-shrink: ;
+	flex-basis: ;
+	flex: ;
+	align-self: ;
+}
+
+.bluebox {
+	border: 3px solid blue;
+	height: 50px;
+	width: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: ;
+	flex-grow: ;
+	flex-shrink: ;
+	flex-basis: ;
+	flex: ;
+	align-self: ;
+}
+
+.container-title {
+	justify-self: center;
+	align-self: center;
+}
