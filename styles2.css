@@ -1,0 +1,88 @@
+.even-columns {
+	display: flex;
+	gap: 1em;
+}
+
+.even-columns > * {
+	flex-basis: 100%;
+}
+
+.grid-ish {
+	display: flex;
+	gap: 1em;
+}
+
+.grid-ish > * {
+	flex: 1 1 100%;
+	flex-wrap: wrap;
+}
+
+.content-sidebar {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+
+.content-sidebar > *:nth-child(1) {
+	flex: 1 1 70%;
+	min-width: 25ch;
+}
+
+.content-sidebar > *:nth-child(2) {
+	flex: 1 1 25%;
+	min-width: 15ch;
+}
+
+:root {
+	--ff-primary: basic-sans, sans-serif;
+	--clr-primary: #ee6352;
+	--clr-body: #333;
+	--clr-bg: #ddd;
+	--spacer: 1rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+.flow > * + * {
+	margin-top: var(--flow-space, var(--spacer));
+}
+
+* {
+	font-family: var(--ff-primary);
+	background-color: var(--clr-bg);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.content-flow {
+	background-color: white;
+	margin: var(--spacer);
+	display: flex;
+	justify-content: center;
+}
+
+.even-columns {
+	background-color: ;
+}
+
+.content-sidebar {
+	background-color: ;
+}
+
+.title {
+	color: var(--clr-primary);
+}
